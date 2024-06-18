@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<script
+			defer
+			src="scrollshow.js"
+		></script>
+
+		<title>Dheeraj - Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="left">Dheeraj's Portfolio</div>
+				<div class="right">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/">About</a></li>
+						<li><a href="/">Services</a></li>
+						<li><a href="/">Past Projects</a></li>
+						<li><a href="/">Contact Me</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="first">
+				<div class="leftSection">
+					Hello, My name is
+					<span class="purple">Dheeraj</span>
+					<div>and I am a passionate</div>
+					<div id="animated_Text"><span id="element"></span></div>
+				</div>
+				<div class="rightSection">
+					<img
+						src="icon.png"
+						alt=""
+					/>
+				</div>
+			</section>
+			<hr />
+			<div class="transition"></div>
+			<section class="second">
+				<section
+					class="timeline"
+					id="timeline"
+				>
+					<!-- <div class="element">HTML webpage Designer --add photos here--</div> -->
+					<div class="center">
+						<div class="project">
+							<h1>Projects</h1>
+							<img
+								src="arrow1.png"
+								alt=""
+								id="arrow"
+							/>
+						</div>
+					</div>
+
+					<div class="element left-element">
+						<h3>IAS Architecture processor Design</h3>
+
+						<span>
+							Built a simulator for the IAS processor. The simulator takes in
+							20bit binary input and processes it with the appropriate steps and
+							displays the output which is stored in the Accumulator.
+						</span>
+					</div>
+					<div class="element right-element">
+						<h3>Notes App in Flutter</h3>
+
+						<span>
+							Built a flutter application which uses the Firebase CLI which
+							allows users to write notes and store them in the cloud. The notes
+							can be written, edited and shared on the cloud database.
+						</span>
+					</div>
+					<div class="element left-element three">
+						<h3>MIPS Architecture processor Design</h3>
+
+						<span>
+							Built a simulator of the MIPS processor. The simulator takes in
+							the assembly code that is output by the MARS simulator. The user
+							can write MIPS code and convert it to assembly in the MARS
+							simulator. Then the user can input this assembly code to the MIPS
+							processor.
+						</span>
+					</div>
+				</section>
+			</section>
+		</main>
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<script>
+			var typed = new Typed('#element', {
+				strings: [
+					'<i>Web</i> Developer.',
+					'<i>Web</i> Designer.',
+					'<i>Game</i> Developer.',
+					'<i>Low Level</i> Programmer.',
+				],
+				typeSpeed: 40,
+				backSpeed: 25,
+				loop: true,
+				loopCount: Infinity,
+				showCursor: true,
+				cursorChar: '⊰',
+				smartBackspace: true,
+			});
+		</script>
+	</body>
+</html>
