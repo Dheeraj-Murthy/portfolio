@@ -223,9 +223,9 @@
     // Contact terminal (larger and different)
     terminals.push({
       x: 140 + 14 * spacing + 60,
-      y: H - 150 - 10,
-      w: 150,
-      h: 150,
+      y: H - 150 - 20,
+      w: 56,
+      h: 56,
       contact: true,
     });
     console.log(
@@ -621,7 +621,7 @@
 
       // Draw notification background
       ctx.fillStyle = `rgba(0, 0, 0, ${0.7 * alpha})`;
-      ctx.fillRect(12, notifY, 330, 32);
+      ctx.fillRect(12, notifY, 400, 32);
 
       // Draw notification text
       ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
@@ -801,7 +801,7 @@
           vy: (Math.random() - 0.8) * 2 * (burst ? 2 : 1),
           life: 1.0,
           size: 4 + Math.random() * 8,
-          hue: 20 + Math.random() * 30,
+          hue: 200 + Math.random() * 60, // Blue to purple range (200-260)
         });
       }
     }
