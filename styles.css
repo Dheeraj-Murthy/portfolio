@@ -11,7 +11,7 @@
 }
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
   margin: 0;
   background: linear-gradient(180deg, var(--bg), #020617);
   color: #d9eefb;
@@ -91,6 +91,9 @@ canvas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
+}
+html {
+  scroll-behavior: smooth;
 }
 .card {
   padding: 12px;
