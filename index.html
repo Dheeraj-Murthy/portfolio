@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dheeraj M — Portfolio & Game (v2)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="hide-system-cursor">
+<!-- Fire flow cursor canvas -->
+<canvas id="cursorCanvas" class="cursor-canvas"></canvas>
+
+<header class="topbar">
+  <div class="brand">
+    <h1>Dheeraj M.</h1>
+    <p>CS · Game & Web Dev · Systems</p>
+  </div>
+  <nav>
+    <a class="nav-link" href="#about">About</a>
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero / Game Section -->
+  <section id="hero" class="hero">
+    <div class="hero-left">
+      <h2>Interactive Portfolio — Play to explore my work</h2>
+      <p>Platformer collects Skill Orbs and interacts with Project Terminals. Built with Canvas + vanilla JS. Deep-blue neon theme.</p>
+      <div class="controls">
+        <span>Controls: ← → to move, ↑ to jump (double jump enabled), E to interact</span>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+    </div>
+    <div class="game-wrap">
+      <canvas id="gameCanvas" width="900" height="420"></canvas>
+    </div>
+  </section>
+
+  <!-- Static portfolio sections -->
+  <section id="about" class="panel">
+    <h2>About</h2>
+    <p>I'm M S Dheeraj Murthy — a 3rd-year undergraduate at IIIT Bangalore. I build web apps, tools, and lightweight games. I enjoy systems, competitive programming, and UI design.</p>
+    <ul class="meta">
+      <li><strong>Email:</strong> ms.dheerajmurthy@iiitb.ac.in</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dheeraj-murthy/" target="_blank">dheeraj-murthy</a></li>
+      <li><strong>Codeforces:</strong> <a href="https://codeforces.com/profile/dcompany2004" target="_blank">dcompany2004</a></li>
+    </ul>
+  </section>
+
+  <section id="projects" class="panel">
+    <h2>Projects</h2>
+    <div id="project-list" class="grid"></div>
+    <p class="muted">Projects are fetched live from GitHub. If you prefer a static list, edit <code>script.js</code>.</p>
+  </section>
+
+  <section id="skills" class="panel">
+    <h2>Skills</h2>
+    <div class="chips">
+      <span class="chip">C / C++</span>
+      <span class="chip">Java</span>
+      <span class="chip">Python</span>
+      <span class="chip">JavaScript</span>
+      <span class="chip">Lua</span>
+      <span class="chip">Rust</span>
+      <span class="chip">React</span>
+      <span class="chip">Node.js</span>
+    </div>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2>Contact</h2>
+    <p>Reach me at <a href="mailto:ms.dheerajmurthy@iiitb.ac.in">ms.dheerajmurthy@iiitb.ac.in</a> or via GitHub/LinkedIn.</p>
+  </section>
+
+  <footer class="footer">
+    <small>© Dheeraj M — Built with Canvas & ❤️ — Deploy: GitHub Pages ready</small>
+  </footer>
+</main>
+
+<!-- Project detail modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <button id="modalClose" class="close">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script_v2.js"></script>
+</body>
+</html>
