@@ -1,7 +1,6 @@
 # 🌐 My Portfolio Website
 
-A personal portfolio website showcasing my projects, skills, and experience.  
-Built with modern web technologies for speed, accessibility, and responsiveness.
+A personal portfolio website showcasing my projects, skills, and experience.
 
 ## 🚀 Live Demo
 
