@@ -1,15 +1,55 @@
-# Dheeraj M — Interactive Portfolio (Canvas Platformer) v2
-This version adds:
-- Double jump
-- Back-and-forth camera scrolling
-- Reduced platform spacing for smoother gameplay
-- Attempts to load sprites from `./assets/warrior/` (if you upload that folder into the project, they'll be used)
-- Fire-flow custom cursor that replaces system cursor
-- Smooth animated link redirects
+# 🌐 My Portfolio Website
 
-## How to use sprites
-If you want the warrior sprites to be used, upload the `assets/warrior/` folder (from your repo) into the project root so path becomes `assets/warrior/<files>`.
-If you prefer, compress and upload the `warrior` folder here and I'll integrate them into the zip for you.
+A personal portfolio website showcasing my projects, skills, and experience.  
+Built with modern web technologies for speed, accessibility, and responsiveness.
 
-## Run locally
-serve . or open index.html (recommended to use a local server so GitHub API calls work)
+## 🚀 Live Demo
+
+[View Portfolio](https://dheeraj-murthy.github.io/portfolio/)
+
+## 🛠 Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+- **Styling:** Vanilla CSS
+- **Deployment:** GitHub Pages
+
+## ✨ Features
+
+- 🎯 Responsive design for all devices
+- ⚡ Fast load times with optimized assets
+- 🎨 Modern and minimal UI
+- 🔗 Smooth in-page navigation
+- 📂 Project showcase section
+- 📬 Contact form with email integration
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install -g serve
+```
+
+## 🖥 Development
+
+Run the project locally:
+
+```bash
+serve .
+```
+
+## 📝 Customization
+
+- **Update content** in `index.html`
+- **Change theme colors** in `styles.css`
+- **Replace images** in `/assets/`
+
+## 📜 License
+
+This project is open source under the [MIT License](LICENSE).
+
+---
+
+💡 _Feel free to fork and customize for your own portfolio._
