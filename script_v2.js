@@ -223,9 +223,9 @@
     // Contact terminal (larger and different)
     terminals.push({
       x: 140 + 14 * spacing + 60,
-      y: H - 150 - 20,
-      w: 56,
-      h: 56,
+      y: H - 150 - 10,
+      w: 150,
+      h: 150,
       contact: true,
     });
     console.log(
